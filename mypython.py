@@ -13,4 +13,9 @@ for i in range(10):
     val.append(x)
     
 print(val)
-    
+
+vl = np.sort(val)
+
+print(vl)
+
+

@@ -12,5 +12,19 @@ for i in range(10):
     print(x)
     val.append(x)
     
-print(val)
+vl = []
+for i in range(len(val)):
+    j = i + 1
+    if j > len(val):
+        break
+    else :
+        if val[i] < val[j]:
+            vl[i].append(val[i])
+            vl[j].append(val[j])
+        else : 
+            vl[i].append(val[j])
+            vl[j].append(val[i])
     
+    
+print(val)
+print(vl)
